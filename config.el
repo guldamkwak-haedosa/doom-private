@@ -39,6 +39,8 @@
   "C-S-l" #'windsize-right
   "C-S-k" #'windsize-up
   "C-S-j" #'windsize-down
+  "C-<"   #'windsize-left
+  "C->"   #'windsize-right
 )
 
 (use-package! winum
