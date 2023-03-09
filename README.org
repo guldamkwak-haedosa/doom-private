@@ -425,12 +425,13 @@ yaml              ; JSON, but readable
 #+end_src
 
 *** Font
+**** Doom Font
 
 #+begin_src emacs-lisp
 
-(setq doom-font (font-spec :family "Mononoki Nerd Font Mono" :size 22)
-      doom-big-font (font-spec :family "Mononoki Nerd Font Mono" :size 36)
-      doom-variable-pitch-font (font-spec :family "Mononoki Nerd Font Mono" :size 22))
+(setq doom-font (font-spec :family "Mononoki Nerd Font Mono" :size 26)
+      doom-big-font (font-spec :family "Mononoki Nerd Font Mono" :size 32)
+      doom-variable-pitch-font (font-spec :family "Mononoki Nerd Font Mono" :size 26))
 
 #+end_src
 
